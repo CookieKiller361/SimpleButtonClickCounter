@@ -5,19 +5,20 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
 public class ButtonUIController {
-
+    int counter = 0;
 
     @FXML
     private Label Labeltext;
 
     @FXML
     void ButtonClicked(ActionEvent event) {
-
+        counter++;
+        Labeltext.setText("counter: " + counter);
     }
 
     @FXML
     void initialize() {
-        assert Labeltext != null : "fx:id=\"Labeltext\" was not injected: check your FXML file 'ButtonUI.fxml'.";
+        Labeltext.setText("counter: 0");
 
     }
 
