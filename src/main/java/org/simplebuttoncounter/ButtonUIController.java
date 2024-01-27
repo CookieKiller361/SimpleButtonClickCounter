@@ -2,12 +2,12 @@ package org.simplebuttoncounter;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class ButtonUIControllerjava -jar SimpleButtonCounter-1.0-SNAPSHOT.jar
-kein Hauptmanifestattribut, in SimpleButtonCounter-1.0-SNAPSHOT.jar {
+public class ButtonUIController {
 
     @FXML
     private ResourceBundle resources;
